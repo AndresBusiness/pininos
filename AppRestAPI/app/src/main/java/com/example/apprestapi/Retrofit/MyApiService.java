@@ -1,10 +1,9 @@
 package com.example.apprestapi.Retrofit;
 
-import com.example.apprestapi.Retrofit.response.userResponse;
+import com.example.apprestapi.Modelo.users;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Query;
 
 /**
  * Created by Andres on 19/05/2018.
@@ -15,7 +14,7 @@ public interface MyApiService {
 
 
     @GET("cgBKwJkQya?indent=2")
-    Call<userResponse[]> getUsers();
+    Call<users[]> getUsers();
 
 
 /*

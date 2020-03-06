@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AppRestAPI</string>
+    <string name="img">imgContent</string>
+    <string name="txtnombre">txtNombre</string>
+    <string name="txtcorreo">txtCorreo</string>
+    <string name="txttelefono">txtTelefono</string>
 </resources>

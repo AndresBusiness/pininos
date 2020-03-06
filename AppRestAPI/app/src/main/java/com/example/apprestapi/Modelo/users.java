@@ -1,6 +1,6 @@
-package com.example.apprestapi.Retrofit.response;
+package com.example.apprestapi.Modelo;
 
-public class userResponse {
+public class users {
     private String correo;
     private String nombre;
     private String telefono;

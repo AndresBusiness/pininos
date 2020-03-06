@@ -14,4 +14,14 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
+    @Test
+    public void esto_siempre_pasa(){
+        assertTrue(5 > 1);
+    }
+    @Test
+    public void esto_nunca_pasa(){
+        assertTrue(5 < 1);
+    }
+
 }
